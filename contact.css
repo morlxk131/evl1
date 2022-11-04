@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+li,a,button{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10% ;
+}
+.logo{
+    cursor: pointer;
+    width: 250px;
+    height: 100px;
+    margin-right: auto;
+}
+.navlink{
+    list-style: none;
+}
+.navlink li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+.navlink li a{
+    transition: all 0.3 ease 0s;
+}
+.navlink li a:hover{
+    color: lightskyblue;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1 );
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+
+}
+#name, #firstname,#e-mail,#sujet{
+    background-color: white;
+    border-radius: 50px;
+    display: block;
+    padding: 20px 20px;
+    
+}
+.submit-btn{
+    padding: 5px 20px;
+    cursor: pointer;
+}
+form{
+    color: #5CB8E4;
+}
